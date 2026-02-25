@@ -22,21 +22,7 @@
            display: flex;
            align-items: center;   /* 關鍵：文字垂直置中 */
         }
-
-        .title-line:before {
-             content: "●";          /* 實心圓，比 • 穩定 */
-             color: #ffd966;         /* 同步金黃色 */
-             font-size: 0.75em;      /* 視覺上更精緻 */
-             margin-right: 0.6rem;
-
-             text-shadow:
-                 0 1px 2px rgba(0,0,0,0.45),
-                 0 0 4px rgba(255,217,102,0.4);
-         }
         
-        .title-line:last-child {
-            margin-bottom: 0 !important;
-        }
     </style>
     <link rel="icon" type="image/x-icon" href="/pic/favicon.ico">
 </head>
@@ -178,39 +164,11 @@
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">聯絡我</h2>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-info fade-in">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
                             <div>
                                 <h5>Email</h5>
                                 <a id="contact-email1" href=""></a>
                             </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <div>
-                                <h5>電話</h5>
-                                <p id="contact-phone"></p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <h5>地點</h5>
-                                <p id="contact-location"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Footer -->
